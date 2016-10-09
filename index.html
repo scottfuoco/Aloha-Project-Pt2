@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>Aloha Apparel Co.</title>
+
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+	<h1>Aloha Apparel</h1>
+	<header class="container">
+		<img class="alohaLogo" src="./assets/images/aloha-logo.svg" />
+		<div class="cartIcon">
+			<a href="#"><img src="./assets/images/cart-icon.svg" /></a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Shop</a></li>
+				<li><a href="#">Featured</a></li>
+				<li><a href="#">Updates</a></li>
+			</ul>
+		</nav>
+	</header>
+
+
+	<section class="banner fontPlayfairDisplay">
+		<p><em>NEW COLLECTION</em></p>
+		<h2>Spring/Summer 2016</h2>
+	</section>
+
+	<section class="descriptionSection container">
+		<div class="descriptionTextWrapper">
+			<h2><i>Hand-Crafted</i> <em>Styles</em></h2>
+			<p>Aloha Apparel Co. sells only the finest read-to-travel clothing. Browse our current selection of products or sign-up for
+				updates below.</p>
+		</div>
+	</section>
+
+	<section class="featuredProducts">
+		<ul>
+			<li class="featuredMens">
+				<a href="#">Men's</a>
+			</li>
+
+			<li class="featuredTrends">
+				<a href="#">Trends</a>
+			</li>
+			<li class="featuredGlasses">
+				<a href="#">Glasses</a>
+			</li>
+			<li class="featuredSale">
+				<a href="#">Sale</a>
+			</li>
+			<li class="featuredBags">
+				<a href="#">Bags</a>
+			</li>
+			<li class="featuredWomen">
+				<a href="#">Women's</a>
+			</li>
+		</ul>
+	</section>
+
+	<div class="hr"></div>
+
+	<section class="productSection container">
+		<h2><i>Most-Loved</i> <em>Products</em></h2>
+		<ul>
+			<li class="productList">
+				<div class="productImage">
+					<a href="#"><img src="./assets/images/stretch-knit-dress.jpg" /></a>
+				</div>
+				<ul class="productDescription">
+					<li class="productType">Dresses</li>
+					<li class="productName">Stretch Knit Dress</li>
+					<li class="productCost">$169.00</li>
+				</ul>
+			</li>
+			<li class="productList">
+				<div class="productImage">
+					<a href="#"><img src="./assets/images/cotton-blue-shirt.jpg" /></a>
+				</div>
+				<ul class="productDescription">
+					<li class="productType">Shirts</li>
+					<li class="productName">Cotton Blue Shirt</li>
+					<li class="productCost">$89.00</li>
+				</ul>
+			</li>
+			<li class="productList">
+				<div class="productImage">
+					<a href="#"><img src="./assets/images/checked-stretch-dress.jpg" /></a>
+				</div>
+				<ul class="productDescription">
+					<li class="productType">Dresses</li>
+					<li class="productName">Checked Stretch Dress</li>
+					<li class="productCost">$129.00</li>
+				</ul>
+			</li>
+			<li class="productList">
+				<div class="productImage">
+					<a href="#"><img src="./assets/images/blue-hipster-backpack.jpg" /></a>
+				</div>
+				<ul class="productDescription">
+					<li class="productType">Bags</li>
+					<li class="productName">Blue Hipster Backpacks</li>
+					<li class="productCost">$69.00</li>
+				</ul>
+			</li>
+		</ul>
+	</section>
+
+	<section class="updatesSection container">
+		<div class="updatesSectionTextContainer">
+			<h2><i>Sign-up for</i> <em>Updates</em></h2>
+			<p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our
+				blog. Unsubscribe at any time.</p>
+		</div>
+		<form id="subscribeForm" action="#" method="POST">
+			<div class="subscribeContainer">
+				<input type="email" name="emailInput" placeholder="Your Email" required />
+				<input type="submit" name="submitBtn" value="Subscribe" />
+			</div>
+		</form>
+	</section>
+
+	<footer class="container">
+		<div class="footerInfo">
+			<ul>
+				<li class="copywriteText">
+					<p>&copy; 2016 Aloha Apparel Co.</p>
+					<p>Powered by HTML and CSS.</p>
+				</li>
+				<li class="phoneAndEmailText">
+					<p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+				</li>
+				<li class="addressText">
+					<address>
+						1490 W Broadway<br /> Vancouver, BC, Canada
+					</address>
+				</li>
+			</ul>
+		</div>
+
+		<div class="socialMediaList">
+			<ul>
+				<a href="http://www.facebook.com">
+					<li>
+						<i class="fa fa-facebook icon"></i>
+						<span>Facebook</span>
+					</li>
+				</a>
+				<a href="http://www.twitter.com">
+					<li>
+						<i class="fa fa-twitter icon" aria-hidden="true"></i>
+						<span>Twitter</span>
+					</li>
+				</a>
+				<a href="http://www.instagram.com">
+					<li>
+						<i class="fa fa-instagram icon" aria-hidden="true"></i>
+						<span>Instagram</span>
+					</li>
+				</a>
+				<a href="http://www.pinterest.com">
+					<li>
+						<i class="fa fa-pinterest icon" aria-hidden="true"></i>
+						<span>Pinterest</span>
+					</li>
+				</a>
+				<a href="http://googleplus.com">
+					<li>
+						<i class="fa fa-google-plus icon" aria-hidden="true"></i>
+						<span>Google+</span>
+					</li>
+				</a>
+			</ul>
+		</div>
+	</footer>
+	<script src="jquery-3.1.1.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
