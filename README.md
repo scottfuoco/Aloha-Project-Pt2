@@ -31,3 +31,6 @@ This project taught me a lot about how to structure semantic HTML in order to ef
 * Add additional comments to style.CSS
 * proof read the README.md as I'm too tired to do it now
 * fix the description section width for higher resolution screens
+
+# Major Learnings
+* Using '''css box-sizing: border-box ''' makes height and width calculations for containers include the padding and border.  This allows in the products section the use of a border to be used to give the white space between the elements, with that border being included in the width.  Initially I was using a margin for spacing the the percentage width of the containers was using the css calc method, ie calc(50% - 10px) where 50% was the width of the container and I was removing 10px to include space for the border of 5px on either side.  By using the box-sizing: border-box and a border of 5px that is now included in the elements width calculation and I was able to remove the css calc().
