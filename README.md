@@ -1,6 +1,8 @@
 # Project 1 - Aloha Apparel - Pt2
 <p align="center">
-    <img src="aloha.png">
+    <a href="https://scottfuoco.github.io/Aloha-Project-Pt2/">
+        <img src="aloha.png" alt="Aloha Apparel Image">
+    </a>
 </p>
 ---
 
