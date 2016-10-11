@@ -3,7 +3,7 @@ $(function () {
         var validEmail = $('input[name=emailInput]')[0].checkValidity();
 
         if (validEmail) {
-            alert('Perpare to be spammed.');
+            alert('Prepare to be spammed.');
         }
         else {
             e.preventDefault();
