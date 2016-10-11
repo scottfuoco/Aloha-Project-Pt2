@@ -6,7 +6,7 @@
 
 # Summary / Purpose
 
-[Aloha Apparel](http://scottfuoco.github.io/aloha/) is a mockup of a fictional e-commerce website written in HTML5, CSS3, and Javascript with the help of jQuery.
+[Aloha Apparel](https://scottfuoco.github.io/Aloha-Project-Pt2/) is a mockup of a fictional e-commerce website written in HTML5, CSS3, and Javascript with the help of jQuery.
 
 It can be a useful reference for the following:
 * Positioning containers and elements with CSS3 Flexbox
