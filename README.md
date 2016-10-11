@@ -1,7 +1,7 @@
 # Project 1 - Aloha Apparel - Pt2
-
+<p align="center">
 ![Aloha Image](aloha.png)
-
+</p>
 ---
 
 # Summary / Purpose
